@@ -1,0 +1,268 @@
+/*···············导航栏begin···············*/
+#navbar .active a{
+	background-color: #cfdb00;
+}
+.navbar-header a>img{
+	width:50%;
+}
+html{
+	-webkit-user-select:none;
+	user-select: none;
+}
+.navbar {
+	border-bottom:2px solid #d1d1d1;
+	font-size: 1.6rem;
+}
+.navbar-header a>img{
+	width:70%;
+}
+.navbar {
+	border-bottom:2px solid #d1d1d1;
+}
+.nav li:hover{
+	background-color: #cfdb00;
+	transition: all 1s;
+	opacity: 0.5;
+}
+/*···············导航栏end···············*/
+
+.bim_bt {
+	margin-top:50px;
+	background-color:#e5e5e5;
+}
+.bim_bt .bim_biaoti {
+	text-align:center;
+	padding-top:60px;
+	padding-bottom:34px;
+}
+.bim_bt .bim_biaoti h2 {
+	margin:0 auto;
+}
+.bim_bt .bim_biaoti h2 span {
+	font-size:2.6rem;
+	position:relative;
+}
+.bim_bt .bim_biaoti h2 span:after {
+	position:absolute;
+	left:-120px;
+	top:15px;
+	content:'';
+	display:block;
+	width:110px;
+	height:2px;
+	background-color:#cedb25;
+}
+.bim_bt .bim_biaoti h2 span:before {
+	position:absolute;
+	right:-120px;
+	top:15px;
+	content:'';
+	display:block;
+	width:110px;
+	height:2px;
+	background-color:#cedb25;
+}
+.bimx {
+	width:100%;
+}
+.bimx li {
+	width:100%;
+}
+.bimx .bim1 {
+	background:url("../img/png6/f1.jpg") no-repeat;
+	background-size:100% 100%;
+}
+.bim1 .tt {
+	width:36%;
+	margin-left: 16%;
+	padding-bottom:6%;
+}
+.bim1 .tt img {
+	width:100%;
+}
+.bim1 h3 {
+	display:inline-block;
+	font-size:2.4rem;
+	background-color:#cfdb00;
+	margin:18% 0 2% 14%;
+}
+.bim1 p {
+	font-size:1.8rem;
+	margin-left: 14%;
+	width:50%;
+}
+.bimx .bim2 {
+	background:url("../img/png6/f2.jpg") no-repeat;
+	background-size:100% 100%;
+}
+.bim2 .tt {
+	width:36%;
+	margin-left: 14%;
+	padding-bottom:18%;
+	padding-top:4%;
+}
+.bim2 .tt img {
+	width:46%;
+	display:inline-block;
+}
+.bim2 .tt img:nth-of-type(1) {
+	margin-right:1.6%;
+}
+.bim2 h3 {
+	display:inline-block;
+	font-size:2.4rem;
+	background-color:#cfdb00;
+	margin:18% 0 2% 14%;
+}
+.bim2 p {
+	font-size:1.8rem;
+	margin-left: 14%;
+	width:50%;
+}
+.bimx .bim3 {
+	background:url("../img/png6/f3.jpg") no-repeat;
+	background-size:100% 100%;
+}
+.bim3 .tt {
+	width:36%;
+	margin-left: 38%;
+	padding-bottom:18%;
+	padding-top:4%;
+}
+.bim3 .tt img {
+	width:46%;
+	display:inline-block;
+}
+.bim3 .tt img:nth-of-type(1) {
+	margin-right:1.6%;
+}
+.bim3 h3 {
+	display:inline-block;
+	font-size:2.4rem;
+	background-color:#cfdb00;
+	margin:18% 0 2% 38%;
+}
+.bim3 p {
+	font-size:1.8rem;
+	margin-left: 38%;
+	width:50%;
+}
+.bimx .bim4 {
+	background:url("../img/png6/f4.jpg") no-repeat;
+	background-size:100% 100%;
+	position:relative;
+}
+.bim4 .tt {
+	width:36%;
+	margin-left: 36%;
+	padding-bottom:7.4%;
+	padding-top:4%;
+}
+.bim4 .bg1 {
+	position: absolute;
+	left:0;
+	bottom:0;
+	/*z-index: -1;*/
+}
+.bim4 .tt img {
+	width:48%;
+}
+.bim4 .tt img:nth-of-type(1) {
+	margin-bottom:3.6%;
+}
+.bim4 h3 {
+	display:inline-block;
+	font-size:2.4rem;
+	background-color:#cfdb00;
+	margin:18% 0 2% 36%;
+}
+.bim4 p {
+	font-size:1.8rem;
+	margin-left: 36%;
+	width:40%;
+}
+.bimx .bim5 {
+	background:url("../img/png6/f5.jpg") no-repeat;
+	background-size:100% 100%;
+	position:relative;
+}
+.bim5 h3 {
+	display:inline-block;
+	font-size:2.4rem;
+	background-color:#cfdb00;
+	margin:25.2% 0 2% 14%;
+}
+.bim5 p {
+	font-size:1.8rem;
+	margin-left: 14%;
+	width:50%;
+	padding-bottom:21.2%;
+}
+/*返回顶部*/
+#goTop {
+	position: absolute;
+	width: 40px;
+	height: 30px;
+	display: block;
+	left:50%;
+	bottom: 0;
+	margin-left: -20px;
+}
+/*······底部begin······*/
+.datu_footer {
+	background-color: #fff;
+}
+.datu_footer .yy {
+	text-align:center;
+	padding-top:60px;
+	padding-bottom:24px;
+}
+.datu_footer .yy h2 {
+	margin:0 auto;
+}
+.datu_footer .yy h2 span {
+	font-size:2rem;
+	position:relative;
+
+}
+.datu_footer .yy h2 span:after {
+	position:absolute;
+	left:-130px;
+	top:10px;
+	content:'';
+	display:block;
+	width:120px;
+	height:2px;
+	background-color:#cedb25;
+}
+.datu_footer .yy h2 span:before {
+	position:absolute;
+	right:-130px;
+	top:10px;
+	content:'';
+	display:block;
+	width:120px;
+	height:2px;
+	background-color:#cedb25;
+}
+.datu_footer .wz {
+	text-align: center;
+	padding-top: 2%;
+	padding-bottom:6%;
+}
+.footer_f {
+	width: 100%;
+	height: 50px; 
+	background-color: #b4b4b4;
+	text-align: center;
+	line-height: 50px;
+	color: #fff;
+	border-top: 3px solid #cfdb00;
+}
+/*······底部end······*/
+
+
+
+
+
+

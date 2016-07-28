@@ -1,0 +1,309 @@
+/*···············导航栏begin···············*/
+#navbar .active a{
+	background-color: #cfdb00;
+}
+.navbar-header a>img{
+	width:50%;
+}
+html{
+	-webkit-user-select:none;
+	user-select: none;
+}
+.navbar {
+	border-bottom:2px solid #d1d1d1;
+	font-size: 1.6rem;
+}
+#navbar .active a{
+	background-color: #cfdb00;
+}
+.nav li:hover{
+	background-color: #cfdb00;
+	transition: all 1s;
+	opacity: 0.5;
+}
+.navbar-header a>img{
+	width:70%;
+}
+.navbar {
+	border-bottom:2px solid #d1d1d1;
+}
+/*···············导航栏end···············*/
+
+/*···············正文begin···············*/
+.content {
+	margin-top:50px;
+}
+.content .biaoti {
+	text-align:center;
+	padding-top:60px;
+	padding-bottom:34px;
+}
+.content .biaoti h2 {
+	margin:0 auto;
+}
+.content .biaoti h2 span {
+	font-size:2rem;
+	position:relative;
+}
+.content .biaoti h2 span:after {
+	position:absolute;
+	left:-120px;
+	top:10px;
+	content:'';
+	display:block;
+	width:110px;
+	height:2px;
+	background-color:#cedb25;
+}
+.content .biaoti h2 span:before {
+	position:absolute;
+	right:-120px;
+	top:10px;
+	content:'';
+	display:block;
+	width:110px;
+	height:2px;
+	background-color:#cedb25;
+}
+
+/*······大图滚动begin·······*/
+#wrap {
+	position: relative;
+	width:100%;
+	margin:0 auto;
+	overflow: hidden;
+	z-index: 1;
+}
+#wrap:hover .left-arrow,#wrap:hover .right-arrow{
+	opacity: 1;
+	text-decoration:none;
+}
+#inner {
+	position: relative;
+	left:0;
+	top:0;
+	width: 1000%;
+}
+#inner img{
+	float: left;
+	width:10%;
+}
+.paganation {
+	position: absolute;
+	bottom:10px;
+	left:0;
+	width:100%;
+	text-align: center;
+	-webkit-user-select:none;
+}
+.paganation span {
+	display: inline-block;
+	width:8px;
+	height: 8px;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 50%;
+	background-color: #fff;
+	cursor: pointer;
+}
+.paganation span.active {
+	background-color: yellow;
+	color:#fff;
+}
+a {
+	text-decoration: none;
+}
+.left-arrow {
+	opacity: 0;
+	transition:all 1s;
+	position: absolute;
+	font-family: "宋体";
+	left:0;
+	top:0;
+	width:40px;
+	height: 100%;
+	color:#fff;
+	text-align: center;
+	font-size: 4rem;
+	background-color: rgba(0,0,0,.5);
+	-webkit-user-select:none;
+}
+.left-arrow span,.right-arrow span{
+	position: absolute;
+	margin-top: -30px;
+	top:50%;
+	left: 50%;
+	margin-left: -10px;
+}
+.right-arrow {
+	opacity: 0;
+	transition:all 1s;
+	position: absolute;
+	font-family: "宋体";
+	right:0;
+	top:0;
+	width:40px;
+	height: 100%;
+	color:#fff;
+	text-align: center;
+	font-size: 40px;
+	background-color: rgba(0,0,0,.5);
+	-webkit-user-select:none;
+}
+/*······大图滚动end······*/
+
+/*······瀑布流begin······*/
+* {
+	margin:0;
+	padding:0;
+}
+#pubu,li {
+	list-style: none;
+}
+#pubu {
+	overflow: hidden;
+	width:100%;
+	margin:5px auto;
+}
+#pubu li {
+	float:left;
+	width:31%;
+	margin: 1%;
+}
+#pubu li img {
+	margin-bottom: 10px;
+	float:left;
+	opacity: 1;
+}
+#pubu li img:hover {
+	opacity: 0.8;
+}
+#goTop {
+	position: absolute;
+	width: 40px;
+	height: 30px;
+	display: block;
+	top: 10px;
+	right:50%;
+	bottom: 20px;
+	margin-right: -20px;
+}
+/*点击出现蒙层和大图*/
+#pubu_mask {
+	display: none;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	z-index: 10;
+	background: rgba(0,0,0,0.8);
+}
+#tanchuang {
+	/*display: none;*/
+	z-index: 11;
+	position: absolute;
+	left: 50%;
+	top:50%;
+}
+/*······瀑布流end······*/
+/*···············正文end···············*/
+
+/*······底部begin······*/
+.datu_footer {
+	position: fixed;
+	bottom: 0; 
+	left: 0;
+	width: 100%;
+	height: 220px;
+	background-color: #fff;
+}
+.datu_footer .yy {
+	text-align:center;
+	padding-top:60px;
+	padding-bottom:24px;
+}
+.datu_footer .yy h2 {
+	margin:0 auto;
+}
+.datu_footer .yy h2 span {
+	font-size:2rem;
+	position:relative;
+
+}
+.datu_footer .yy h2 span:after {
+	position:absolute;
+	left:-130px;
+	top:10px;
+	content:'';
+	display:block;
+	width:120px;
+	height:2px;
+	background-color:#cedb25;
+}
+.datu_footer .yy h2 span:before {
+	position:absolute;
+	right:-130px;
+	top:10px;
+	content:'';
+	display:block;
+	width:120px;
+	height:2px;
+	background-color:#cedb25;
+}
+.datu_footer .wz {
+	text-align: center;
+}
+.footer_f {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 36px; 
+	background-color: #b4b4b4;
+	text-align: center;
+	line-height: 36px;
+	color: #fff;
+	border-top: 3px solid #cfdb00;
+}
+/*······底部end······*/
+
+/*当屏幕变小的时候*/
+@media screen and (max-width: 650px) {
+	#pubu li {
+	float:left;
+	width:48%;
+	margin: 1%;
+	}
+	.datu_footer {
+		height: 140px;
+	}
+	.datu_footer .yy {
+		padding-top: 42px;
+		padding-bottom: 0px;
+	}
+	.datu_footer .yy h2 span {
+		font-size: 1.5rem;
+	}
+	.datu_footer .wz {
+		margin-bottom: 40px;
+	}
+	.datu_footer .yy h2 span:before {
+		top:6px;
+	}
+	.datu_footer .yy h2 span:after {
+		top:6px;
+	}
+	.footer_f {
+		height: 28px;
+		line-height: 28px;
+	}
+
+} 
+
+
+
+
+
+
+

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/home.css">
+	<title>写意-home</title>
+</head>
+<body>
+	<div class="home">
+		<!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+          	<img src="img/png1/logo.png">
+          </a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="Drawing.html">Renderings</a></li>
+            <li><a href="bim.html">BIM</a></li>
+            <li><a href="3DANIMATE.html">3D Animate</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    <!-- 导航end -->
+    <div class="home_bt">
+      <div class="home_biaoti">
+        <h2><span>DIGITAL EFFECT DRAWING</span></h2>
+      </div>
+    </div>
+
+    <div class="home_content">
+
+      <div class="content_top">
+        <div class="top_left">
+          <img src="img/png2/fang1.png">
+        </div>
+        <div class="top_right">
+          <h2>DIGITAL EFFECT DRAWING</h2>
+          <h4>Nosape eaqui non nobitati te ommos deria nos quatur? Pario comnit reris aut modic tecuptat omni ad explanditam verupis nia sequist la et liquo omnia </h4>
+        </div>
+      </div>
+
+      <div class="content_content">
+        <div class="content_left">
+          <h2>BUILDING INFORMATION MODELING</h2>
+          <h4>Nosape eaqui non nobitati te ommos deria nos quatur? Pario comnit reris aut modic tecuptat omni ad explanditam verupis nia sequist la et liquo omnia </h4>
+        </div>
+        <div class="content_right">
+          <img src="img/png2/fang2.png">
+        </div>
+      </div>
+
+      <div class="content_top clearfix">
+        <div class="top_left">
+          <img src="img/png2/fang3.png">
+        </div>
+        <div class="top_right">
+          <h2>3D AMIMATE</h2>
+          <h4>Nosape eaqui non nobitati te ommos deria nos quatur? Pario comnit reris aut modic tecuptat omni ad explanditam verupis nia sequist la et liquo omnia </h4>
+        </div>
+      </div>
+    </div>
+
+    <!-- 底部 -->
+  <div class="datu_footer">
+    
+    <div class="yy">
+      <h2><span>CONTACT US</span></h2>
+    </div>
+    <div class="wz">
+      <p>Email:eric@shining365.com</p>
+      <p>Mobile Phone: 86 138 1690 3400</p>
+      <p>Tel:+86 21 6598 6866 -304 +86 21 6598 3188-304</p>
+    </div>
+    <div class="footer_f">Copyright&copy;1998-2015 shining Group</div>
+  </div>
+  
+	</div>
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="dist/js/bootstrap.min.js"></script>
+  <script type="text/javascript">
+   // 当屏幕小于862的时候
+    window.onresize=function() {
+      if(document.documentElement.clientWidth<=862) {
+        $(".content_content .content_left").insertAfter($(".content_content .content_right"));
+        $(".content_content .content_left").css({
+          textAlign:"left",
+        })
+      }else {
+        $(".content_content .content_right").insertAfter($(".content_content .content_left"));
+      }
+    }
+    </script>
+</body>
+</html>
